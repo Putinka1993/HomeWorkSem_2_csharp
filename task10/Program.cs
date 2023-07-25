@@ -6,6 +6,6 @@ string digit = inpDig.ToString();
 
 if (digit.Length == 3)
 {
-    Console.WriteLine($"вторая цифра из числа {inpDig} : {digit[1]}");
+    Console.WriteLine($"Вторая цифра из числа {inpDig} : {digit[1]}");
 }
-else Console.WriteLine("Некректное число");
+else Console.WriteLine("Некоректное число");
