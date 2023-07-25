@@ -1,11 +1,11 @@
 ﻿
-Console.WriteLine("Введите число");
+Console.WriteLine("Enter the number");
 int inpDig = int.Parse(Console.ReadLine());
 
 string digit = inpDig.ToString();
 
 if (digit.Length >= 3)
 {
-    Console.WriteLine($"Третья цифра из числа {inpDig} : {digit[2]}");
+    Console.WriteLine($"The third digit of {inpDig} : {digit[2]}");
 }
-else Console.WriteLine("Третьего числа нет");
+else Console.WriteLine("There is no third digit");
